@@ -391,6 +391,7 @@ public class sequencer : MonoBehaviour{
                     patterns[i] = false;
                     _PadsArr[i].transform.localScale = new Vector3 (0.8f, .4f, 0.8f);
                 }
+
                 else
                 {
                     //if it is false(unpressed) make it pressed
