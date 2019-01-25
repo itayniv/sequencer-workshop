@@ -10,7 +10,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>
     </RootNamespace>
-    <ProjectGuid>{BE22A233-BFA3-03F6-B6E4-9B19D7CC19EE}</ProjectGuid>
+    <ProjectGuid>{0F8A677A-A5F8-972D-F7BA-14C5F447FDBB}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -83,7 +83,6 @@
     <Compile Include="Assets\MySynthesizer\scripts\MySyntheStation.cs" />
     <Compile Include="Assets\Oscillator.cs" />
     <Compile Include="Assets\PeerPlay\Ripple Water\_scripts\CollisionScript.cs" />
-    <Compile Include="Assets\PeerPlay\Ripple Water\_scripts\playerController.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Attributes\GetSetAttribute.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Attributes\MinAttribute.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Attributes\TrackballAttribute.cs" />
@@ -129,8 +128,8 @@
     <Compile Include="Assets\PostProcessing\Runtime\Utils\MaterialFactory.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
     <Compile Include="Assets\PostProcessing\Utilities\CustomMotionTexture\ExampleWheelController.cs" />
+    <Compile Include="Assets\Scenes\playerController.cs" />
     <Compile Include="Assets\Scripts\ApplicationContoller.cs" />
-    <Compile Include="Assets\Scripts\BperM.cs" />
     <Compile Include="Assets\Scripts\Bullet.cs" />
     <Compile Include="Assets\Scripts\CameraController.cs" />
     <Compile Include="Assets\Scripts\Classes\SawWave.cs" />
@@ -147,9 +146,10 @@
     <Compile Include="Assets\Scripts\ProceduralAudioController.cs" />
     <Compile Include="Assets\Scripts\RighHandController.cs" />
     <Compile Include="Assets\Scripts\SimplePlayerControl.cs" />
-    <Compile Include="Assets\Scripts\SoundManager.cs" />
     <Compile Include="Assets\Scripts\SpectrumVisualizerController.cs" />
-    <Compile Include="Assets\sequencer.cs" />
+    <Compile Include="Assets\Scripts\workshop scripts\BperM.cs" />
+    <Compile Include="Assets\Scripts\workshop scripts\sequencer.cs" />
+    <Compile Include="Assets\Scripts\workshop scripts\SoundManager.cs" />
     <None Include="Assets\PostProcessing\Resources\Shaders\DepthOfField.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\MotionBlur.cginc" />
     <None Include="Assets\PostProcessing\Resources\Shaders\Fog.shader" />
@@ -192,16 +192,16 @@
     <None Include="Assets\PostProcessing\Resources\Shaders\AmbientOcclusion.cginc" />
     <None Include="Assets\PostProcessing\Editor Resources\Monitors\WaveformCompute.compute" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>/Users/itayniv/Documents/ITP/Workshops/Sequencer-unity/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>/Users/itayniv/Documents/ITP/Workshops/sequencer-workshop/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>/Users/itayniv/Documents/ITP/Workshops/Sequencer-unity/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>/Users/itayniv/Documents/ITP/Workshops/sequencer-workshop/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>/Users/itayniv/Documents/ITP/Workshops/Sequencer-unity/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>/Users/itayniv/Documents/ITP/Workshops/sequencer-workshop/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>/Users/itayniv/Documents/ITP/Workshops/Sequencer-unity/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>/Users/itayniv/Documents/ITP/Workshops/sequencer-workshop/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -408,7 +408,7 @@
       <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="MySynthesizer">
-      <HintPath>/Users/itayniv/Documents/ITP/Workshops/Sequencer-unity/Assets/MySynthesizer/plugins/MySynthesizer.dll</HintPath>
+      <HintPath>/Users/itayniv/Documents/ITP/Workshops/sequencer-workshop/Assets/MySynthesizer/plugins/MySynthesizer.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Analytics">
       <HintPath>/Users/itayniv/Library/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
@@ -446,7 +446,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{5D736258-44BF-123B-22F0-6575F42852F7}</Project>
+      <Project>{320C95D4-ABF3-2B72-935A-DAE9E9CA3754}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
   </ItemGroup>

@@ -10,7 +10,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>
     </RootNamespace>
-    <ProjectGuid>{D89558A3-296B-2878-70FB-D21984211EFF}</ProjectGuid>
+    <ProjectGuid>{D04A04CF-544A-8D3E-1CFC-0958D08FDB4C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor-firstpass</AssemblyName>
@@ -108,16 +108,16 @@
     <Compile Include="Assets\Plugins\RootMotion\Editor\Shared Scripts\LargeHeaderDrawer.cs" />
     <Compile Include="Assets\Plugins\RootMotion\Editor\Shared Scripts\SerializedContent.cs" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>/Users/itayniv/Documents/ITP/Workshops/Sequencer-unity/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>/Users/itayniv/Documents/ITP/Workshops/sequencer-workshop/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>/Users/itayniv/Documents/ITP/Workshops/Sequencer-unity/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>/Users/itayniv/Documents/ITP/Workshops/sequencer-workshop/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>/Users/itayniv/Documents/ITP/Workshops/Sequencer-unity/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>/Users/itayniv/Documents/ITP/Workshops/sequencer-workshop/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>/Users/itayniv/Documents/ITP/Workshops/Sequencer-unity/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>/Users/itayniv/Documents/ITP/Workshops/sequencer-workshop/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -369,7 +369,7 @@
       <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="MySynthesizer">
-      <HintPath>/Users/itayniv/Documents/ITP/Workshops/Sequencer-unity/Assets/MySynthesizer/plugins/MySynthesizer.dll</HintPath>
+      <HintPath>/Users/itayniv/Documents/ITP/Workshops/sequencer-workshop/Assets/MySynthesizer/plugins/MySynthesizer.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Advertisements">
       <HintPath>/Users/itayniv/Library/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
@@ -419,7 +419,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{5D736258-44BF-123B-22F0-6575F42852F7}</Project>
+      <Project>{320C95D4-ABF3-2B72-935A-DAE9E9CA3754}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
   </ItemGroup>

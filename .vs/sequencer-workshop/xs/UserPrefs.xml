@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{0F8A677A-A5F8-972D-F7BA-14C5F447FDBB}|">
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/workshop scripts/SoundManager.cs">
+    <Files>
+      <File FileName="Assets/Scripts/workshop scripts/sequencer.cs" Line="78" Column="19" />
+      <File FileName="Assets/Scripts/workshop scripts/SoundManager.cs" Line="5" Column="43" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
