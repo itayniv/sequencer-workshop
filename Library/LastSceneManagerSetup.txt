@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Seq.unity
+- path: Assets/Scenes/Sequencer.unity
   isLoaded: 1
   isActive: 1
