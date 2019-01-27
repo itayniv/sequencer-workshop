@@ -82,7 +82,6 @@
     <Compile Include="Assets\MySynthesizer\scripts\MyMMLPlayer.cs" />
     <Compile Include="Assets\MySynthesizer\scripts\MySyntheStation.cs" />
     <Compile Include="Assets\Oscillator.cs" />
-    <Compile Include="Assets\PeerPlay\Ripple Water\_scripts\CollisionScript.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Attributes\GetSetAttribute.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Attributes\MinAttribute.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Attributes\TrackballAttribute.cs" />
@@ -128,6 +127,7 @@
     <Compile Include="Assets\PostProcessing\Runtime\Utils\MaterialFactory.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
     <Compile Include="Assets\PostProcessing\Utilities\CustomMotionTexture\ExampleWheelController.cs" />
+    <Compile Include="Assets\ripple\Ripple Water\_scripts\CollisionScript.cs" />
     <Compile Include="Assets\Scenes\playerController.cs" />
     <Compile Include="Assets\Scripts\ApplicationContoller.cs" />
     <Compile Include="Assets\Scripts\Bullet.cs" />

@@ -17,6 +17,7 @@ public class SoundManager : MonoBehaviour {
 
         // create new sound placeholders
         _soundClip = new List<AudioSource>();
+
         for (int i = 0; i < _bankSize; i ++)
         {
             //create a game object named sound

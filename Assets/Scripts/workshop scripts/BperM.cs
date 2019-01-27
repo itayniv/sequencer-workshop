@@ -5,11 +5,10 @@ using UnityEngine;
 public class BperM : MonoBehaviour {
 
     private static BperM _BperMInstance;
-    public float _bpm;
+    public float _bpm = 60.0f;
     private float _beatInterval, _beatTimer, _beatIntervalD8, _beatTimerD8;
     public static bool _beatFull, _beatD8;
     public static int _beatCountFull, _beatCountD8;
-
 
 
     //when you are awake check that there is only one instance of _bpermInstance, kill others.
@@ -28,14 +27,9 @@ public class BperM : MonoBehaviour {
     }
 
 
-
-    // Use this for initialization
-    void Start () {
-		
-	}
 	
 	// Update is called once per frame
-	void Update () {
+	void    Update () {
 
         //run the beat detection function every frame.
         BeatDetection();
@@ -62,7 +56,7 @@ public class BperM : MonoBehaviour {
             _beatTimer -= _beatInterval;
             _beatFull = true;
             _beatCountFull++;
-            //Debug.Log("full");
+            Debug.Log("full");
 
         }
 
@@ -76,7 +70,7 @@ public class BperM : MonoBehaviour {
             _beatTimerD8 -= _beatIntervalD8;
             _beatD8 = true;
             _beatCountD8++;
-            //Debug.Log("D8");
+            Debug.Log("D8");
         }
 
     }

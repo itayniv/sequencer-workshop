@@ -59,13 +59,11 @@ public class sequencer : MonoBehaviour{
         pattern = new int[steps];
 
 
-
         //reset pattern array to 0
         for (int x = 0; x < steps; x++)
         {
             pattern[x] = 0;
         }
-
 
 
         //create all pads on the scene 2D array
@@ -79,7 +77,7 @@ public class sequencer : MonoBehaviour{
                 //instantiat gameobjects Pad
                 GameObject _pad = Instantiate(pad);
 
-                //give pad a uniqu name
+                //give pad a unique name
                 _pad.name = "pad" + padNumbers;
 
                 //place pad in a uniqu position
@@ -87,6 +85,7 @@ public class sequencer : MonoBehaviour{
 
                 //add a material for pad from the array of materials
                 _pad.GetComponent<Renderer>().material = materials[0];
+
                 _PadsArr.Add(_pad);
 
                 //declare patterns are false
@@ -116,7 +115,6 @@ public class sequencer : MonoBehaviour{
         //on each beat from the metronome do the following:
         if (BperM._beatD8)
         {
-               
             if (BperM._beatD8 && BperM._beatCountD8 % 2 == 0)
             {
                 // add step
@@ -143,7 +141,6 @@ public class sequencer : MonoBehaviour{
                 // assign material for cursor, etc.
                 for (int i = 0; i < instruments * steps; i++)
                 {
-
                     //for each step number do the following (switch statement):
                     switch (counter)
                     {
@@ -302,10 +299,12 @@ public class sequencer : MonoBehaviour{
                 //move counter on each counter --> [1],[0],[0],[0],[0],[0],[0],[0] --> [0],[1],[0],[0],[0],[0],[0],[0]
                 pattern[counter] = 1;
 
+
+
+
                 //for all the steps check what to play
                 for (int i = 0; i < steps; i++)
                 {
-
                     //for first row of pads if a pad is pressed and the cursor is at the position than play
                     if ((patterns[(8 * 0) + i] == true) && pattern[i] == 1)
                     {
